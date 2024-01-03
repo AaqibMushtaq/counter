@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+h1 {
+  margin: 10px;
+  font-size: 70px;
+}
+#value {
+  font-size: 120px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  border: 2px solid black;
+  padding: 10px 50px;
+  margin: 10px;
+  border-radius: 20%;
+}
+.btn:hover {
+  background: black;
+  color: white;
+}
