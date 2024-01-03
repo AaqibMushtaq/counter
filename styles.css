@@ -1,4 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Combo&family=Orbitron&family=Pacifico&family=Saira:wght@100&display=swap");
 body {
+  font-family: saira;
   display: flex;
   align-items: center;
   justify-content: center;

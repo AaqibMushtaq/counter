@@ -1,7 +1,6 @@
 let count = 0;
 let value = document.querySelector("#value");
 let btn = document.querySelectorAll(".btn");
-// console.log(btn);
 btn.forEach(function (btn) {
   btn.addEventListener("click", function (e) {
     const clickedElementClass = e.currentTarget.classList;
