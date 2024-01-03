@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Combo&family=Orbitron&family=Pacifico&family=Saira:wght@100&display=swap");
+body {
+  font-family: saira;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+h1 {
+  margin: 10px;
+  font-size: 70px;
+}
+#value {
+  font-size: 120px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  border: 2px solid black;
+  padding: 10px 50px;
+  margin: 10px;
+  border-radius: 20%;
+}
+.btn:hover {
+  background: black;
+  color: white;
+}
